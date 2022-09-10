@@ -34,6 +34,7 @@ print("this is a apple\n")
 print(" this is a apple".lstrip())
 print(' this is a apple\n'.strip())
 str2 = "this is string example....wow!!!"
+print(f">>>>>>>>:{str2[100:200]}") # 超出范围不会报错，只会返回空字符串
 suffix = "is";
 print(str2.endswith(suffix, 2, 4))
 print(str2.endswith(suffix, 2, 6))
