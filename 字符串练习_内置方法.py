@@ -39,7 +39,7 @@ suffix = "is";
 print(str2.endswith(suffix, 2, 4))
 print(str2.endswith(suffix, 2, 6))
 # 获取Python字符串中的某字符可以使用索引：
-lang = 'python'
+lang = 'python is good'
 lang[0]
 # p
 lang[3]
@@ -62,7 +62,7 @@ lang[:]
 # 当头索引为负数时，则是指从字符串的尾部开始计数，最末尾的字符记为-1，以此类推，因此此时应该注意尾索引的值，尾索引同样可以为负数，如果尾索引的值指明的字符串位置小于或等于头索引，此时返回的就是空字符串
 lang[-2:]
 # on
-lang[-2,2]
+# lang[-2,2]
 # ''
 # 切片是Python中截取字符串最强大的功能。
 # 以下列举部分Python字符串常用的方法：
@@ -70,7 +70,7 @@ lang[-2,2]
 len(lang)
 # 6
 # 使用in操作符判断某个子字符是否在字符串中
-'p' in lang
+print("----------",'is' in lang)
 # True
 'ab' in lang
 # False
