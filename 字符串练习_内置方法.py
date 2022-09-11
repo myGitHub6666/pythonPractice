@@ -100,6 +100,9 @@ ord('a')
 # 使用str()方法将其他数据类型转化为字符串
 num = 3.14
 str(num)
+
+
+
 # 3.14
 # 将字符串的第一个字符大写
 'python'.capitalize()
