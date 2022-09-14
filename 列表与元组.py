@@ -47,5 +47,5 @@ lst.append(20)# 默认追加在最后面
 for i in lst:
     print(i)
 
-while True:
-    print("白嫖怪")
+# while True:
+#     print("白嫖怪")
