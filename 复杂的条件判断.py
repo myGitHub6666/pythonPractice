@@ -21,4 +21,4 @@ else:
     else:
         a = int(value) * 2
         print(a)
-# str(a).isdigit()函数 可以判断字符串str(a)是不是全部由数字组成。如果只包含数字则返回True，否则返回False
+# str(a).isdigit()函数 可以判断字符串str(a)是不是全部由数字组成。如果全是数字返回True，否则返回False
