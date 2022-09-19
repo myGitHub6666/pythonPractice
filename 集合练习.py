@@ -17,9 +17,14 @@ list2 = [2,5,7,9]
 #             list3.append(ii)
 #     count +=1
 # print(list3) #[2, 5]
-# 哪些整数在lst1中，不在lst2中
+# 哪些整数在lst1中，也在lst2中
+set1 =set(list1)
+set2 = set(list2)
+print(set1.intersection(set2),type(set1.intersection(set2))) # 在set1中也在set2中的数据。相当于是求交集。
 
+# 哪些整数既在lst1中，不在lst2中
+print(set1.difference(set2))
 
-# 哪些整数既在lst1中，也在lst2中
+# 两个列表一共有哪些整数 相当于求并集
+print(set1.union(set2))
 
-# 两个列表一共有哪些整数
