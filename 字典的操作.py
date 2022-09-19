@@ -3,7 +3,7 @@ dict1 = {'name':"lucy","age":18,'2':"编号"}
 for k in dict1:
     print(k,type(k))
 for k in dict1.keys():
-    print(k)
+     print(k)
 # 获取值得方法
 for v in dict1.values():
     print(v,type(v))
