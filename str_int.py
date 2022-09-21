@@ -30,5 +30,5 @@ def my_int(string):
         ii *= 10
     return count
 
-
-print(my_int('786587'))
+if __name__ == '__main__':
+    print(my_int('786587'))
