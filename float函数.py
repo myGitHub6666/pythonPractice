@@ -14,9 +14,11 @@ def my_float(string):
     lst = string.split('.')
     num1 = str_int.my_int(lst[0])
     num2 = str_int.my_int(lst[1])
-    while num2>1:
-        num2 = num2*0.1
-    num = num1+num2
+    while num2 >=1:
+        num2 = num2 * 0.1
+    num = num1 + num2
     return num
 
-if
+
+if __name__ == '__main__':
+    print(my_float('1.1')+1)
