@@ -94,3 +94,13 @@ def ret1(a, b, *args, c, d, **kwargs):
 
 
 ret1(1, 2, 3, 5, 6, c=7, d=8, name='lucy', sex='女') # a=1,b=2,agrs=(3, 5, 6),c=7,d=8,kwgrgs={'name': 'lucy', 'sex': '女'}
+
+# sep是多个位置参数之间的间隔，end为函数结束后，都会换行默认是end='/n'
+print(1,2,sep='-',end='  ')
+print(1,2,sep='  ')
+
+# 类
+class Mouth_M():
+    #  类中的函数，第一个参数必须是self，就是对象本身
+    def number(self):
+        pass
