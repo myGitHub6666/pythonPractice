@@ -32,8 +32,34 @@ class Item():
 
 
 house = House('三室一厅', 150)
-bed = Item('席梦思',4)
-chest = Item('衣柜',148)
+bed = Item('席梦思', 4)
+chest = Item('衣柜', 148)
 house.add_item(bed)
 house.add_item(chest)
 print(house)
+
+
+class Person():
+    # 类属性
+    local = '西安'
+    def __init__(self, name, age):
+        self.__name = name
+        self.age = age
+
+    def __str__(self):
+        return f"姓名是：{self.__name},年龄是：{self.age}"
+
+    # 私有的方法
+    def __getname(self):
+        print(f"{self.__name}")
+
+
+p = Person('xaioming', 12)
+# 类属性的获取，可以使用类.属性，还可以使用实例对象.属性获取
+print(Person.local,p.local)
+print(p)
+# 添加了一个共有的属性
+p.__name = 'lucy'
+print(p)
+p._Person__name = 'xiaoxin'
+print(p, p.__name)
